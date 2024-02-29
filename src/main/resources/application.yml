@@ -3,6 +3,6 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://mysqldb:3306/securitymanagement
     username: root
-    password: Honnu@6268
+    password: root
   jpa:
     show-sql: true
