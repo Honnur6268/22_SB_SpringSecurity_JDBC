@@ -22,7 +22,7 @@ public class UserRestController {
 	}
 	
 	@GetMapping(value = "/welcome")
-	public String welcome() {
+	public String greet() {
 		return "<h3>Welcome To Jenkins Course....</h3>";
 	}
 }
