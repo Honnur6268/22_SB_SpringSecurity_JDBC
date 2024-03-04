@@ -12,5 +12,5 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
 
-serever:
+server:
   port: 9000
