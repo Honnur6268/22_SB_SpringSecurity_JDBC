@@ -1,7 +1,7 @@
 version: "3"
 services:
   application:
-    image: spring-security-jdbc-application
+    image: 7256268/spring-security-jdbc-application
     ports:
       - 8080:8080
     networks:
