@@ -31,7 +31,7 @@ public class AppSecurityConfig {
 	@Bean
 	public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
 		http.authorizeHttpRequests((req) -> req.requestMatchers("/admin").hasRole(ADMIN).requestMatchers("/user")
-				.hasAnyRole(ADMIN, USER).requestMatchers("/").permitAll().anyRequest().authenticated()).formLogin();
+				.hasAnyRole(ADMIN, USER).requestMatchers("/").permitAll().requestMatchers("/welcome").permitAll().anyRequest().authenticated()).formLogin();
 
 		return http.build();
 
