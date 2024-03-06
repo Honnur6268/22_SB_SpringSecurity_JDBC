@@ -3,7 +3,7 @@ services:
   application:
     image: 7256268/spring-security-jdbc-application
     ports:
-      - 8080:8080
+      - 9000:8080
     networks:
       - springboot-db-net
     depends_on:
